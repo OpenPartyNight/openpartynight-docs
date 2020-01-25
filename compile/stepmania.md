@@ -22,7 +22,7 @@ Perform these actions as a regular user with sudo privileges
 
     ```
     cd raspbian-stepmania-build
-    cat << EOF > Makefile.patch
+    cat << 'EOF' > Makefile.patch
     --- Makefile	2020-01-25 17:32:26.475149635 +0000
     +++ Makefile.orig	2020-01-25 17:31:34.103204886 +0000
     @@ -70,8 +70,7 @@
