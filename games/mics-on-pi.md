@@ -2,9 +2,9 @@
 
 ## Overview
 
-Microphone: USB Mic
-OS Version: Raspbian 10 (buster)
-Hardware: Raspberry Pi 4 (4G)
+Microphone: USB Mic  
+OS Version: Raspbian 10 (buster)  
+Hardware: Raspberry Pi 4 (4G)  
 
 ## How To
 

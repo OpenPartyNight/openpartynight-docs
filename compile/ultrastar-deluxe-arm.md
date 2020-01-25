@@ -2,9 +2,9 @@
 
 ## Overview
 
-Software Version: master@f1e9f7e954a254c7cd9eafec302234b1cc7dbef8 
-Device: Raspberry Pi 4 (4G)
-OS: Raspbian 10 (Buster)
+Software Version: master@f1e9f7e954a254c7cd9eafec302234b1cc7dbef8  
+Device: Raspberry Pi 4 (4G)  
+OS: Raspbian 10 (Buster)  
 
 ## How To
 
