@@ -23,17 +23,18 @@ Perform these actions as a regular user with sudo privileges
     ```
     cd raspbian-stepmania-build
     cat << 'EOF' > Makefile.patch
-    --- Makefile	2020-01-25 17:31:34.103204886 +0000
-    +++ Makefile.new	2020-01-25 17:38:04.204188553 +0000
+    --- Makefile    2020-01-25 17:31:34.103204886 +0000
+    +++ /tmp/Makefile.new   2020-01-25 17:38:04.204188553 +0000
     @@ -70,7 +70,8 @@
-                -DWITH_FULL_RELEASE=1 \
-            -DCMAKE_BUILD_TYPE=Release \
-                -DARM_CPU=$(ARM_CPU) \
-    -		-DARM_FPU=$(ARM_FPU)
-    +		-DARM_FPU=$(ARM_FPU) \
-    +		-DCMAKE_INSTALL_PREFIX=/opt/openpartynight/games/stepmania
-        cmake $(PARALLELISM) .
-        git reset --hard HEAD^
+                    -DWITH_FULL_RELEASE=1 \
+                    -DCMAKE_BUILD_TYPE=Release \
+                    -DARM_CPU=$(ARM_CPU) \
+    -               -DARM_FPU=$(ARM_FPU)
+    +               -DARM_FPU=$(ARM_FPU) \
+    +               -DCMAKE_INSTALL_PREFIX=/opt/openpartynight/games/stepmania
+            cmake $(PARALLELISM) .
+            git reset --hard HEAD^
+
     EOF
     git apply Makefile.patch 
     ```
