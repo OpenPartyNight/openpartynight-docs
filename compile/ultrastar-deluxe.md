@@ -71,13 +71,18 @@ Perform these actions as a regular user with sudo privileges.
     ln -s /opt/openpartynight/content/sing/themes .
     ```
 
+## Tidy
+
+- Remove the compilation directory
+
+    ```
+    rm -rf ~/COMPILE/USDX
+    ```
+
 ## To Do
 
-- Work out where the visualiser went next to the player name (showing the sound waves) when recompiled with different prefixes WHAT
-    - If launched via `./game/ulstrastardx` then it shows
-    - Launched through install after `make install` it doesn't -> Oscilliscope option in Graphics
 - Preconfigure full screen and various QoL settings so users don't have to
     - Full screen, 1080p
     - Oscilloscope
-    - Song text highlighting
+    - Song text highlighting (word disappearing is disgusting)
 - Can settings be done in application root or do they need to be done at user level?
