@@ -36,7 +36,7 @@ Perform these actions as a regular user with sudo privileges.
 
     ```
     ./autogen.sh
-    ./configure
+    ./configure --prefix="/opt/openpartynight/games/usdx" --exec-prefix="/opt/openpartynight/games/usdx"
     make
     ```
 
@@ -46,12 +46,38 @@ Perform these actions as a regular user with sudo privileges.
     ./game/ultrastardx
     ```
 
+## Installation
+
+- Install game
+
+    ```
+    make install
+    ```
+
+- Setup song links
+
+    ```
+    cd /opt/openpartynight/games/usdx/share/usdx
+    rm -rf songs
+    ln -s /opt/openpartynight/content/sing/songs .
+    ```
+
+- Setup themes link
+
+    ```
+    cd /opt/openpartynight/games/usdx/share/usdx
+    mv themes/* /opt/openpartynight/content/themes/
+    rm -rf themes
+    ln -s /opt/openpartynight/content/sing/themes .
+    ```
+
 ## To Do
 
-- Install to `/opt/openflight/ultrastar/`
-
-- Verify symlinking songs works
-
-- 
-
-
+- Work out where the visualiser went next to the player name (showing the sound waves) when recompiled with different prefixes WHAT
+    - If launched via `./game/ulstrastardx` then it shows
+    - Launched through install after `make install` it doesn't -> Oscilliscope option in Graphics
+- Preconfigure full screen and various QoL settings so users don't have to
+    - Full screen, 1080p
+    - Oscilloscope
+    - Song text highlighting
+- Can settings be done in application root or do they need to be done at user level?
