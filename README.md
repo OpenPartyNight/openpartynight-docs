@@ -6,7 +6,8 @@ This repo contains the various configuration notes and installation guides for t
 
 The documentation currently is broken up as follows:
 
-- `system/`: Processes for configuring the system, such as setting up servers
+- `system/`: Processes for configuring the system, such as setting up file servers and other services
 - `compile/`: Guides for compiling various software used by the project
+- `hardware/`: General notes on hardware used for testing & usage
 - `games/`: User guides for performing common tasks within the provided games
 
