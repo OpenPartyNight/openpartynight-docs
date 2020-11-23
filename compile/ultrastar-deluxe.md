@@ -66,7 +66,7 @@ Perform these actions as a regular user with sudo privileges.
 
     ```
     cd /opt/openpartynight/games/usdx/share/usdx
-    mv themes/* /opt/openpartynight/content/themes/
+    mv themes /opt/openpartynight/content/sing/
     rm -rf themes
     ln -s /opt/openpartynight/content/sing/themes .
     ```
