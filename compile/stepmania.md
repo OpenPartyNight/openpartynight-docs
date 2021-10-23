@@ -1,5 +1,18 @@
 # Compiling StepMania on arm
 
+# Future Improvements
+
+- According to [mikemintz](https://github.com/SpottyMatt/raspbian-stepmania-build/issues/4#issuecomment-735295508) - HDMI audio works with SoundWriteAhead=2048 in the Stepmania config file
+    - This works although sound can occasionally crackle and sound laggy
+    - Tweaked to 1024 (as it defaults to 0)
+    - Same
+    - Upped to 4096 (as recommended by [Project Moondance](https://projectmoon.dance/index.php/releases/5.3-a4.9.5) for older systems)
+    - Still feels a bit off but slightly better
+    - Set SoundPreferredSampleRate to 44100 (44.1Khz)
+    - Not really much of a difference initially but after leaving on a song preivew for a while it seemed perfectly smooth
+    - Yep, this seems to work, it may just be that patience is needed initially on the song wheel to catch up
+    - 2021-10-20 - There is a slight audio delay, this can likely be addressed by increasing the "Visual Delay", increasing to +1 doesn't seem to get alignment quite right, might need to play with decimal points in the prefs file, +2 seems closer but still feels "off"
+
 # Attempt 6
 
 Bought sound card and it just works, wtf.
