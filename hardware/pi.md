@@ -42,8 +42,8 @@ Wireless Mouse & Keyboard Remote: [£18 Zoweetek ZW-51025](https://www.scan.co.u
 Some untested options:
 - [£11.30 Miniature Keyboard](https://thepihut.com/products/mini-bluetooth-keyboard-black)
 - [£18 Riii i8+](https://thepihut.com/products/rii-i8-plus-mini-wireless-keyboard-with-touchpad)
-- []()
-- 
+- [£22.8 2.4GHz Air Mouse & Keyboard](https://thepihut.com/products/rc-2-4g-wireless-air-mouse-keyboard)
+- [£26 Riii Miniature Keyboard with Touchpad](https://thepihut.com/products/adafruit-riii-miniature-wireless-usb-keyboard-with-touchpad)
 
 ### Dance
 
