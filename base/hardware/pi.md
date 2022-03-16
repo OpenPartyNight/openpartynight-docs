@@ -21,7 +21,7 @@ Heatsink: [XL Raspberry Pi 4 Heatsink](https://thepihut.com/products/xl-raspberr
 
 ### Sound Card
 
-_Note: A sound card is not required for Ultrastar, it is oddly required to get decent sound performance for Stepmania__
+_Note: A sound card is not required for Ultrastar, it is oddly required to get decent sound performance for Stepmania_
 
 Sound Card: [USB Audio Adapter](https://thepihut.com/products/usb-audio-adapter-works-with-raspberry-pi?variant=758603889)
 
